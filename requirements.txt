@@ -1,0 +1,9 @@
+torch
+transformers<5
+sentence-transformers
+chromadb
+pymupdf
+langchain-text-splitters
+ollama
+fastapi
+uvicorn

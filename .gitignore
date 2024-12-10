@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+
+# Textbook PDF + questions (download separately; see README)
+data/raw/
+
+# Built artefacts
+index/
+outputs/*.log
