@@ -1,0 +1,3952 @@
+[
+  {
+    "query_id": "1",
+    "question": "What is the scientific method in psychology?",
+    "dense (question)": {
+      "hit": 1.0,
+      "precision": 0.5,
+      "mrr": 1.0,
+      "sections": [
+        "1.1",
+        "1.1",
+        "1.review",
+        "1.review",
+        "2.1",
+        "1.0",
+        "2.1",
+        "1.review"
+      ]
+    },
+    "dense (HyDE)": {
+      "hit": 1.0,
+      "precision": 0.625,
+      "mrr": 1.0,
+      "sections": [
+        "1.1",
+        "2.1",
+        "1.1",
+        "1.review",
+        "2.2",
+        "2.1",
+        "2.review",
+        "1.review"
+      ]
+    },
+    "dense (question) + rerank": {
+      "hit": 1.0,
+      "precision": 0.75,
+      "mrr": 1.0,
+      "sections": [
+        "1.1",
+        "1.1",
+        "2.1",
+        "2.1",
+        "1.review",
+        "2.1",
+        "1.1",
+        "1.0"
+      ]
+    },
+    "dense (HyDE) + rerank vs HyDE passage": {
+      "hit": 1.0,
+      "precision": 0.625,
+      "mrr": 0.5,
+      "sections": [
+        "1.0",
+        "2.2",
+        "2.1",
+        "1.1",
+        "2.1",
+        "2.1",
+        "9.1",
+        "1.review"
+      ]
+    },
+    "dense (HyDE) + rerank vs question": {
+      "hit": 1.0,
+      "precision": 0.75,
+      "mrr": 1.0,
+      "sections": [
+        "1.1",
+        "1.1",
+        "2.1",
+        "2.1",
+        "1.review",
+        "2.1",
+        "1.1",
+        "1.0"
+      ]
+    }
+  },
+  {
+    "query_id": "2",
+    "question": "What are the basic parts of a neuron?",
+    "dense (question)": {
+      "hit": 1.0,
+      "precision": 0.5,
+      "mrr": 1.0,
+      "sections": [
+        "3.2",
+        "3.2",
+        "3.3",
+        "3.2",
+        "3.3",
+        "3.2",
+        "3.review",
+        "3.review"
+      ]
+    },
+    "dense (HyDE)": {
+      "hit": 1.0,
+      "precision": 0.5,
+      "mrr": 1.0,
+      "sections": [
+        "3.2",
+        "3.review",
+        "3.review",
+        "3.2",
+        "3.3",
+        "3.review",
+        "3.2",
+        "3.2"
+      ]
+    },
+    "dense (question) + rerank": {
+      "hit": 1.0,
+      "precision": 0.625,
+      "mrr": 1.0,
+      "sections": [
+        "3.2",
+        "3.2",
+        "3.2",
+        "3.2",
+        "3.2",
+        "8.2",
+        "8.2",
+        "3.review"
+      ]
+    },
+    "dense (HyDE) + rerank vs HyDE passage": {
+      "hit": 1.0,
+      "precision": 0.75,
+      "mrr": 1.0,
+      "sections": [
+        "3.2",
+        "3.2",
+        "3.2",
+        "3.review",
+        "3.2",
+        "3.2",
+        "3.2",
+        "3.review"
+      ]
+    },
+    "dense (HyDE) + rerank vs question": {
+      "hit": 1.0,
+      "precision": 0.625,
+      "mrr": 1.0,
+      "sections": [
+        "3.2",
+        "3.2",
+        "3.2",
+        "3.2",
+        "3.2",
+        "8.2",
+        "8.2",
+        "3.review"
+      ]
+    }
+  },
+  {
+    "query_id": "3",
+    "question": "What are the stages of sleep?",
+    "dense (question)": {
+      "hit": 1.0,
+      "precision": 0.5,
+      "mrr": 1.0,
+      "sections": [
+        "4.3",
+        "4.3",
+        "4.review",
+        "4.3",
+        "4.review",
+        "4.0",
+        "4.review",
+        "4.3"
+      ]
+    },
+    "dense (HyDE)": {
+      "hit": 1.0,
+      "precision": 0.625,
+      "mrr": 1.0,
+      "sections": [
+        "4.3",
+        "4.3",
+        "4.3",
+        "4.review",
+        "4.3",
+        "4.review",
+        "4.4",
+        "4.3"
+      ]
+    },
+    "dense (question) + rerank": {
+      "hit": 1.0,
+      "precision": 0.625,
+      "mrr": 1.0,
+      "sections": [
+        "4.3",
+        "4.review",
+        "4.3",
+        "4.review",
+        "4.review",
+        "4.3",
+        "4.3",
+        "4.3"
+      ]
+    },
+    "dense (HyDE) + rerank vs HyDE passage": {
+      "hit": 1.0,
+      "precision": 0.75,
+      "mrr": 1.0,
+      "sections": [
+        "4.3",
+        "4.3",
+        "4.review",
+        "4.3",
+        "4.3",
+        "4.3",
+        "4.review",
+        "4.3"
+      ]
+    },
+    "dense (HyDE) + rerank vs question": {
+      "hit": 1.0,
+      "precision": 0.625,
+      "mrr": 1.0,
+      "sections": [
+        "4.3",
+        "4.review",
+        "4.3",
+        "4.review",
+        "4.review",
+        "4.3",
+        "4.3",
+        "4.3"
+      ]
+    }
+  },
+  {
+    "query_id": "4",
+    "question": "What is operant conditioning?",
+    "dense (question)": {
+      "hit": 1.0,
+      "precision": 0.25,
+      "mrr": 1.0,
+      "sections": [
+        "6.3",
+        "6.3",
+        "6.1",
+        "16.2",
+        "15.5",
+        "6.1",
+        "6.review",
+        "6.1"
+      ]
+    },
+    "dense (HyDE)": {
+      "hit": 1.0,
+      "precision": 0.25,
+      "mrr": 0.5,
+      "sections": [
+        "6.review",
+        "6.3",
+        "6.1",
+        "6.review",
+        "6.3",
+        "16.2",
+        "6.review",
+        "6.1"
+      ]
+    },
+    "dense (question) + rerank": {
+      "hit": 1.0,
+      "precision": 0.25,
+      "mrr": 1.0,
+      "sections": [
+        "6.3",
+        "16.2",
+        "6.3",
+        "6.review",
+        "6.review",
+        "6.review",
+        "6.1",
+        "6.review"
+      ]
+    },
+    "dense (HyDE) + rerank vs HyDE passage": {
+      "hit": 1.0,
+      "precision": 0.25,
+      "mrr": 0.5,
+      "sections": [
+        "6.review",
+        "6.3",
+        "6.review",
+        "1.2",
+        "6.3",
+        "6.review",
+        "6.1",
+        "15.5"
+      ]
+    },
+    "dense (HyDE) + rerank vs question": {
+      "hit": 1.0,
+      "precision": 0.25,
+      "mrr": 1.0,
+      "sections": [
+        "6.3",
+        "16.2",
+        "6.3",
+        "6.review",
+        "6.review",
+        "6.review",
+        "6.1",
+        "6.review"
+      ]
+    }
+  },
+  {
+    "query_id": "5",
+    "question": "What is problem-solving in psychology?",
+    "dense (question)": {
+      "hit": 0.0,
+      "precision": 0.0,
+      "mrr": 0.0,
+      "sections": [
+        "7.review",
+        "1.3",
+        "7.review",
+        "7.0",
+        "7.1",
+        "15.1",
+        "7.review",
+        "1.1"
+      ]
+    },
+    "dense (HyDE)": {
+      "hit": 0.0,
+      "precision": 0.0,
+      "mrr": 0.0,
+      "sections": [
+        "7.review",
+        "7.1",
+        "7.review",
+        "7.review",
+        "7.0",
+        "7.1",
+        "1.3",
+        "7.0"
+      ]
+    },
+    "dense (question) + rerank": {
+      "hit": 1.0,
+      "precision": 0.125,
+      "mrr": 0.2,
+      "sections": [
+        "7.review",
+        "7.0",
+        "7.1",
+        "1.3",
+        "7.3",
+        "14.4",
+        "15.1",
+        "7.review"
+      ]
+    },
+    "dense (HyDE) + rerank vs HyDE passage": {
+      "hit": 1.0,
+      "precision": 0.125,
+      "mrr": 0.167,
+      "sections": [
+        "7.review",
+        "11.4",
+        "7.review",
+        "7.review",
+        "7.0",
+        "7.3",
+        "7.0",
+        "7.review"
+      ]
+    },
+    "dense (HyDE) + rerank vs question": {
+      "hit": 1.0,
+      "precision": 0.125,
+      "mrr": 0.143,
+      "sections": [
+        "7.review",
+        "7.0",
+        "7.1",
+        "7.review",
+        "1.3",
+        "7.review",
+        "7.3",
+        "14.4"
+      ]
+    }
+  },
+  {
+    "query_id": "6",
+    "question": "What are the three stages of memory?",
+    "dense (question)": {
+      "hit": 1.0,
+      "precision": 0.375,
+      "mrr": 1.0,
+      "sections": [
+        "8.1",
+        "8.1",
+        "8.review",
+        "8.review",
+        "8.review",
+        "8.review",
+        "8.1",
+        "8.review"
+      ]
+    },
+    "dense (HyDE)": {
+      "hit": 1.0,
+      "precision": 0.625,
+      "mrr": 1.0,
+      "sections": [
+        "8.1",
+        "8.review",
+        "8.review",
+        "8.1",
+        "8.1",
+        "8.1",
+        "8.1",
+        "8.review"
+      ]
+    },
+    "dense (question) + rerank": {
+      "hit": 1.0,
+      "precision": 0.375,
+      "mrr": 1.0,
+      "sections": [
+        "8.1",
+        "8.review",
+        "8.1",
+        "8.3",
+        "8.review",
+        "8.1",
+        "8.review",
+        "8.review"
+      ]
+    },
+    "dense (HyDE) + rerank vs HyDE passage": {
+      "hit": 1.0,
+      "precision": 0.5,
+      "mrr": 0.5,
+      "sections": [
+        "8.review",
+        "8.1",
+        "8.review",
+        "8.1",
+        "8.review",
+        "8.1",
+        "8.review",
+        "8.1"
+      ]
+    },
+    "dense (HyDE) + rerank vs question": {
+      "hit": 1.0,
+      "precision": 0.375,
+      "mrr": 1.0,
+      "sections": [
+        "8.1",
+        "8.review",
+        "8.1",
+        "8.review",
+        "8.1",
+        "8.review",
+        "8.review",
+        "8.review"
+      ]
+    }
+  },
+  {
+    "query_id": "7",
+    "question": "What are the key components of emotion?",
+    "dense (question)": {
+      "hit": 1.0,
+      "precision": 0.5,
+      "mrr": 1.0,
+      "sections": [
+        "10.4",
+        "10.4",
+        "10.0",
+        "10.4",
+        "10.review",
+        "10.review",
+        "10.4",
+        "3.review"
+      ]
+    },
+    "dense (HyDE)": {
+      "hit": 1.0,
+      "precision": 0.625,
+      "mrr": 1.0,
+      "sections": [
+        "10.4",
+        "10.4",
+        "10.4",
+        "10.4",
+        "10.review",
+        "10.4",
+        "10.review",
+        "14.review"
+      ]
+    },
+    "dense (question) + rerank": {
+      "hit": 1.0,
+      "precision": 0.5,
+      "mrr": 1.0,
+      "sections": [
+        "10.4",
+        "10.4",
+        "10.4",
+        "10.4",
+        "10.review",
+        "10.0",
+        "10.review",
+        "12.3"
+      ]
+    },
+    "dense (HyDE) + rerank vs HyDE passage": {
+      "hit": 1.0,
+      "precision": 0.75,
+      "mrr": 0.5,
+      "sections": [
+        "10.review",
+        "10.4",
+        "10.4",
+        "10.4",
+        "10.0",
+        "10.4",
+        "10.4",
+        "10.4"
+      ]
+    },
+    "dense (HyDE) + rerank vs question": {
+      "hit": 1.0,
+      "precision": 0.5,
+      "mrr": 1.0,
+      "sections": [
+        "10.4",
+        "10.4",
+        "10.4",
+        "10.4",
+        "10.review",
+        "10.0",
+        "10.review",
+        "12.3"
+      ]
+    }
+  },
+  {
+    "query_id": "8",
+    "question": "What are the major personality traits in the Five Factor Model?",
+    "dense (question)": {
+      "hit": 1.0,
+      "precision": 0.625,
+      "mrr": 1.0,
+      "sections": [
+        "11.7",
+        "1.3",
+        "11.review",
+        "11.7",
+        "11.7",
+        "11.7",
+        "11.7",
+        "15.11"
+      ]
+    },
+    "dense (HyDE)": {
+      "hit": 1.0,
+      "precision": 0.75,
+      "mrr": 0.5,
+      "sections": [
+        "1.3",
+        "11.7",
+        "11.review",
+        "11.7",
+        "11.7",
+        "11.7",
+        "11.7",
+        "11.7"
+      ]
+    },
+    "dense (question) + rerank": {
+      "hit": 1.0,
+      "precision": 0.5,
+      "mrr": 1.0,
+      "sections": [
+        "11.7",
+        "1.3",
+        "11.review",
+        "11.review",
+        "15.11",
+        "11.7",
+        "11.7",
+        "11.7"
+      ]
+    },
+    "dense (HyDE) + rerank vs HyDE passage": {
+      "hit": 1.0,
+      "precision": 0.75,
+      "mrr": 1.0,
+      "sections": [
+        "11.7",
+        "1.3",
+        "11.7",
+        "11.7",
+        "11.7",
+        "11.7",
+        "11.7",
+        "11.review"
+      ]
+    },
+    "dense (HyDE) + rerank vs question": {
+      "hit": 1.0,
+      "precision": 0.5,
+      "mrr": 1.0,
+      "sections": [
+        "11.7",
+        "1.3",
+        "11.review",
+        "11.review",
+        "15.11",
+        "11.7",
+        "11.7",
+        "11.7"
+      ]
+    }
+  },
+  {
+    "query_id": "9",
+    "question": "What is social psychology?",
+    "dense (question)": {
+      "hit": 1.0,
+      "precision": 0.375,
+      "mrr": 0.5,
+      "sections": [
+        "12.review",
+        "12.1",
+        "12.2",
+        "1.3",
+        "12.0",
+        "12.1",
+        "13.3",
+        "12.review"
+      ]
+    },
+    "dense (HyDE)": {
+      "hit": 1.0,
+      "precision": 0.5,
+      "mrr": 0.5,
+      "sections": [
+        "12.review",
+        "12.1",
+        "12.2",
+        "1.3",
+        "12.1",
+        "12.0",
+        "12.review",
+        "12.1"
+      ]
+    },
+    "dense (question) + rerank": {
+      "hit": 1.0,
+      "precision": 0.5,
+      "mrr": 0.333,
+      "sections": [
+        "12.review",
+        "12.2",
+        "12.1",
+        "12.0",
+        "12.1",
+        "1.3",
+        "12.review",
+        "12.1"
+      ]
+    },
+    "dense (HyDE) + rerank vs HyDE passage": {
+      "hit": 1.0,
+      "precision": 0.375,
+      "mrr": 0.5,
+      "sections": [
+        "12.review",
+        "12.1",
+        "12.0",
+        "12.1",
+        "1.3",
+        "12.2",
+        "12.4",
+        "1.0"
+      ]
+    },
+    "dense (HyDE) + rerank vs question": {
+      "hit": 1.0,
+      "precision": 0.5,
+      "mrr": 0.333,
+      "sections": [
+        "12.review",
+        "12.2",
+        "12.1",
+        "12.0",
+        "12.1",
+        "1.3",
+        "12.review",
+        "12.1"
+      ]
+    }
+  },
+  {
+    "query_id": "10",
+    "question": "What is the sociocultural model in therapy?",
+    "dense (question)": {
+      "hit": 1.0,
+      "precision": 0.375,
+      "mrr": 1.0,
+      "sections": [
+        "16.5",
+        "16.5",
+        "16.5",
+        "16.review",
+        "16.0",
+        "16.review",
+        "16.review",
+        "9.2"
+      ]
+    },
+    "dense (HyDE)": {
+      "hit": 1.0,
+      "precision": 0.375,
+      "mrr": 1.0,
+      "sections": [
+        "16.5",
+        "16.5",
+        "16.5",
+        "16.review",
+        "12.review",
+        "12.2",
+        "12.1",
+        "12.1"
+      ]
+    },
+    "dense (question) + rerank": {
+      "hit": 1.0,
+      "precision": 0.5,
+      "mrr": 1.0,
+      "sections": [
+        "16.5",
+        "16.review",
+        "16.5",
+        "16.0",
+        "16.0",
+        "16.5",
+        "1.3",
+        "16.5"
+      ]
+    },
+    "dense (HyDE) + rerank vs HyDE passage": {
+      "hit": 1.0,
+      "precision": 0.375,
+      "mrr": 1.0,
+      "sections": [
+        "16.5",
+        "16.0",
+        "16.5",
+        "16.review",
+        "16.5",
+        "16.2",
+        "11.2",
+        "16.review"
+      ]
+    },
+    "dense (HyDE) + rerank vs question": {
+      "hit": 1.0,
+      "precision": 0.5,
+      "mrr": 1.0,
+      "sections": [
+        "16.5",
+        "16.review",
+        "16.5",
+        "16.0",
+        "16.5",
+        "1.3",
+        "16.5",
+        "9.2"
+      ]
+    }
+  },
+  {
+    "query_id": "11",
+    "question": "What is the history of psychology?",
+    "dense (question)": {
+      "hit": 1.0,
+      "precision": 0.375,
+      "mrr": 1.0,
+      "sections": [
+        "1.2",
+        "1.review",
+        "1.0",
+        "1.1",
+        "1.2",
+        "2.1",
+        "1.1",
+        "1.2"
+      ]
+    },
+    "dense (HyDE)": {
+      "hit": 1.0,
+      "precision": 0.5,
+      "mrr": 1.0,
+      "sections": [
+        "1.2",
+        "1.2",
+        "1.2",
+        "1.2",
+        "1.review",
+        "2.1",
+        "13.1",
+        "1.3"
+      ]
+    },
+    "dense (question) + rerank": {
+      "hit": 1.0,
+      "precision": 0.625,
+      "mrr": 1.0,
+      "sections": [
+        "1.2",
+        "1.0",
+        "1.review",
+        "1.2",
+        "2.1",
+        "1.2",
+        "1.2",
+        "1.2"
+      ]
+    },
+    "dense (HyDE) + rerank vs HyDE passage": {
+      "hit": 1.0,
+      "precision": 0.625,
+      "mrr": 1.0,
+      "sections": [
+        "1.2",
+        "1.review",
+        "1.0",
+        "1.2",
+        "2.1",
+        "1.2",
+        "1.2",
+        "1.2"
+      ]
+    },
+    "dense (HyDE) + rerank vs question": {
+      "hit": 1.0,
+      "precision": 0.625,
+      "mrr": 1.0,
+      "sections": [
+        "1.2",
+        "1.0",
+        "1.review",
+        "1.2",
+        "2.1",
+        "1.2",
+        "1.2",
+        "1.2"
+      ]
+    }
+  },
+  {
+    "query_id": "12",
+    "question": "Who were Wilhelm Wundt and William James?",
+    "dense (question)": {
+      "hit": 1.0,
+      "precision": 0.75,
+      "mrr": 1.0,
+      "sections": [
+        "1.2",
+        "1.2",
+        "10.1",
+        "1.review",
+        "1.2",
+        "1.2",
+        "1.2",
+        "1.2"
+      ]
+    },
+    "dense (HyDE)": {
+      "hit": 1.0,
+      "precision": 0.75,
+      "mrr": 1.0,
+      "sections": [
+        "1.2",
+        "1.2",
+        "1.review",
+        "1.2",
+        "1.2",
+        "1.2",
+        "10.1",
+        "1.2"
+      ]
+    },
+    "dense (question) + rerank": {
+      "hit": 1.0,
+      "precision": 0.5,
+      "mrr": 1.0,
+      "sections": [
+        "1.2",
+        "1.2",
+        "1.2",
+        "1.review",
+        "13.1",
+        "11.1",
+        "1.2",
+        "12.5"
+      ]
+    },
+    "dense (HyDE) + rerank vs HyDE passage": {
+      "hit": 1.0,
+      "precision": 0.375,
+      "mrr": 1.0,
+      "sections": [
+        "1.2",
+        "1.2",
+        "1.2",
+        "11.review",
+        "1.review",
+        "1.review",
+        "2.1",
+        "1.review"
+      ]
+    },
+    "dense (HyDE) + rerank vs question": {
+      "hit": 1.0,
+      "precision": 0.625,
+      "mrr": 1.0,
+      "sections": [
+        "1.2",
+        "1.2",
+        "1.2",
+        "1.review",
+        "13.1",
+        "11.1",
+        "1.2",
+        "1.2"
+      ]
+    }
+  },
+  {
+    "query_id": "13",
+    "question": "What is functionalism in psychology?",
+    "dense (question)": {
+      "hit": 1.0,
+      "precision": 0.375,
+      "mrr": 0.5,
+      "sections": [
+        "1.review",
+        "1.2",
+        "1.review",
+        "1.review",
+        "1.2",
+        "1.2",
+        "11.5",
+        "1.review"
+      ]
+    },
+    "dense (HyDE)": {
+      "hit": 1.0,
+      "precision": 0.25,
+      "mrr": 1.0,
+      "sections": [
+        "1.2",
+        "1.review",
+        "1.review",
+        "1.2",
+        "1.3",
+        "1.review",
+        "11.4",
+        "6.review"
+      ]
+    },
+    "dense (question) + rerank": {
+      "hit": 1.0,
+      "precision": 0.5,
+      "mrr": 1.0,
+      "sections": [
+        "1.2",
+        "1.review",
+        "1.review",
+        "1.2",
+        "1.review",
+        "1.2",
+        "1.review",
+        "1.2"
+      ]
+    },
+    "dense (HyDE) + rerank vs HyDE passage": {
+      "hit": 1.0,
+      "precision": 0.25,
+      "mrr": 1.0,
+      "sections": [
+        "1.2",
+        "1.2",
+        "6.1",
+        "13.review",
+        "6.review",
+        "11.review",
+        "10.1",
+        "11.review"
+      ]
+    },
+    "dense (HyDE) + rerank vs question": {
+      "hit": 1.0,
+      "precision": 0.375,
+      "mrr": 1.0,
+      "sections": [
+        "1.2",
+        "1.review",
+        "1.review",
+        "1.2",
+        "1.review",
+        "1.review",
+        "1.2",
+        "7.3"
+      ]
+    }
+  },
+  {
+    "query_id": "14",
+    "question": "What are Freud's contributions to psychology?",
+    "dense (question)": {
+      "hit": 1.0,
+      "precision": 0.875,
+      "mrr": 1.0,
+      "sections": [
+        "1.2",
+        "11.2",
+        "11.2",
+        "11.2",
+        "11.2",
+        "9.2",
+        "1.2",
+        "1.2"
+      ]
+    },
+    "dense (HyDE)": {
+      "hit": 1.0,
+      "precision": 0.625,
+      "mrr": 1.0,
+      "sections": [
+        "1.2",
+        "11.2",
+        "11.2",
+        "11.2",
+        "11.2",
+        "11.review",
+        "2.1",
+        "16.2"
+      ]
+    },
+    "dense (question) + rerank": {
+      "hit": 1.0,
+      "precision": 0.375,
+      "mrr": 1.0,
+      "sections": [
+        "11.2",
+        "9.2",
+        "11.3",
+        "2.1",
+        "1.2",
+        "11.2",
+        "1.3",
+        "9.2"
+      ]
+    },
+    "dense (HyDE) + rerank vs HyDE passage": {
+      "hit": 1.0,
+      "precision": 0.625,
+      "mrr": 0.333,
+      "sections": [
+        "2.1",
+        "1.review",
+        "11.2",
+        "11.2",
+        "1.2",
+        "2.review",
+        "11.2",
+        "11.2"
+      ]
+    },
+    "dense (HyDE) + rerank vs question": {
+      "hit": 1.0,
+      "precision": 0.5,
+      "mrr": 1.0,
+      "sections": [
+        "11.2",
+        "9.2",
+        "2.1",
+        "1.2",
+        "11.2",
+        "1.3",
+        "9.2",
+        "1.2"
+      ]
+    }
+  },
+  {
+    "query_id": "15",
+    "question": "What are Gestalt principles?",
+    "dense (question)": {
+      "hit": 1.0,
+      "precision": 0.625,
+      "mrr": 0.5,
+      "sections": [
+        "5.review",
+        "5.6",
+        "5.6",
+        "5.6",
+        "1.2",
+        "5.6",
+        "5.0",
+        "5.review"
+      ]
+    },
+    "dense (HyDE)": {
+      "hit": 1.0,
+      "precision": 0.75,
+      "mrr": 1.0,
+      "sections": [
+        "5.6",
+        "5.6",
+        "5.6",
+        "5.review",
+        "5.6",
+        "5.review",
+        "5.6",
+        "5.6"
+      ]
+    },
+    "dense (question) + rerank": {
+      "hit": 1.0,
+      "precision": 0.75,
+      "mrr": 0.5,
+      "sections": [
+        "5.review",
+        "5.6",
+        "5.6",
+        "5.6",
+        "5.6",
+        "5.6",
+        "1.2",
+        "1.review"
+      ]
+    },
+    "dense (HyDE) + rerank vs HyDE passage": {
+      "hit": 1.0,
+      "precision": 0.5,
+      "mrr": 1.0,
+      "sections": [
+        "5.6",
+        "5.review",
+        "8.review",
+        "5.6",
+        "5.review",
+        "5.6",
+        "5.6",
+        "5.0"
+      ]
+    },
+    "dense (HyDE) + rerank vs question": {
+      "hit": 1.0,
+      "precision": 0.75,
+      "mrr": 0.5,
+      "sections": [
+        "5.review",
+        "5.6",
+        "5.6",
+        "5.6",
+        "5.6",
+        "5.6",
+        "1.2",
+        "1.review"
+      ]
+    }
+  },
+  {
+    "query_id": "16",
+    "question": "What is classical conditioning?",
+    "dense (question)": {
+      "hit": 1.0,
+      "precision": 0.375,
+      "mrr": 0.5,
+      "sections": [
+        "6.review",
+        "6.2",
+        "6.2",
+        "6.1",
+        "15.4",
+        "6.2",
+        "6.3",
+        "6.review"
+      ]
+    },
+    "dense (HyDE)": {
+      "hit": 1.0,
+      "precision": 0.5,
+      "mrr": 1.0,
+      "sections": [
+        "6.2",
+        "6.2",
+        "6.review",
+        "6.2",
+        "6.1",
+        "15.4",
+        "6.2",
+        "6.review"
+      ]
+    },
+    "dense (question) + rerank": {
+      "hit": 1.0,
+      "precision": 0.25,
+      "mrr": 0.5,
+      "sections": [
+        "15.4",
+        "6.2",
+        "6.2",
+        "6.review",
+        "6.3",
+        "6.review",
+        "6.1",
+        "6.3"
+      ]
+    },
+    "dense (HyDE) + rerank vs HyDE passage": {
+      "hit": 1.0,
+      "precision": 0.875,
+      "mrr": 1.0,
+      "sections": [
+        "6.2",
+        "6.2",
+        "6.2",
+        "6.2",
+        "6.2",
+        "6.2",
+        "6.2",
+        "15.5"
+      ]
+    },
+    "dense (HyDE) + rerank vs question": {
+      "hit": 1.0,
+      "precision": 0.25,
+      "mrr": 0.5,
+      "sections": [
+        "15.4",
+        "6.2",
+        "6.2",
+        "6.review",
+        "6.3",
+        "6.review",
+        "6.1",
+        "6.3"
+      ]
+    }
+  },
+  {
+    "query_id": "17",
+    "question": "What are Skinner's contributions to behaviorism?",
+    "dense (question)": {
+      "hit": 1.0,
+      "precision": 0.5,
+      "mrr": 1.0,
+      "sections": [
+        "1.2",
+        "6.review",
+        "1.review",
+        "1.review",
+        "6.3",
+        "6.3",
+        "6.3",
+        "6.review"
+      ]
+    },
+    "dense (HyDE)": {
+      "hit": 1.0,
+      "precision": 0.75,
+      "mrr": 1.0,
+      "sections": [
+        "1.2",
+        "1.2",
+        "6.3",
+        "6.review",
+        "6.3",
+        "6.3",
+        "6.review",
+        "6.3"
+      ]
+    },
+    "dense (question) + rerank": {
+      "hit": 1.0,
+      "precision": 0.375,
+      "mrr": 1.0,
+      "sections": [
+        "1.2",
+        "1.review",
+        "1.review",
+        "1.2",
+        "11.4",
+        "6.review",
+        "6.3",
+        "6.review"
+      ]
+    },
+    "dense (HyDE) + rerank vs HyDE passage": {
+      "hit": 1.0,
+      "precision": 0.5,
+      "mrr": 0.2,
+      "sections": [
+        "1.review",
+        "6.review",
+        "6.review",
+        "6.review",
+        "6.3",
+        "6.3",
+        "6.3",
+        "6.3"
+      ]
+    },
+    "dense (HyDE) + rerank vs question": {
+      "hit": 1.0,
+      "precision": 0.375,
+      "mrr": 1.0,
+      "sections": [
+        "1.2",
+        "1.review",
+        "1.review",
+        "1.2",
+        "11.4",
+        "6.review",
+        "6.3",
+        "6.review"
+      ]
+    }
+  },
+  {
+    "query_id": "18",
+    "question": "What is Maslow's hierarchy of needs?",
+    "dense (question)": {
+      "hit": 1.0,
+      "precision": 0.875,
+      "mrr": 1.0,
+      "sections": [
+        "10.1",
+        "1.2",
+        "11.5",
+        "10.1",
+        "10.1",
+        "10.review",
+        "11.5",
+        "1.2"
+      ]
+    },
+    "dense (HyDE)": {
+      "hit": 1.0,
+      "precision": 0.875,
+      "mrr": 1.0,
+      "sections": [
+        "10.1",
+        "1.2",
+        "10.1",
+        "11.5",
+        "11.5",
+        "10.1",
+        "10.review",
+        "1.2"
+      ]
+    },
+    "dense (question) + rerank": {
+      "hit": 1.0,
+      "precision": 0.875,
+      "mrr": 0.5,
+      "sections": [
+        "10.review",
+        "11.5",
+        "1.2",
+        "10.1",
+        "10.1",
+        "1.2",
+        "10.1",
+        "10.1"
+      ]
+    },
+    "dense (HyDE) + rerank vs HyDE passage": {
+      "hit": 1.0,
+      "precision": 0.75,
+      "mrr": 1.0,
+      "sections": [
+        "10.1",
+        "10.1",
+        "10.1",
+        "10.1",
+        "9.review",
+        "10.1",
+        "10.1",
+        "10.review"
+      ]
+    },
+    "dense (HyDE) + rerank vs question": {
+      "hit": 1.0,
+      "precision": 0.875,
+      "mrr": 0.5,
+      "sections": [
+        "10.review",
+        "11.5",
+        "1.2",
+        "10.1",
+        "10.1",
+        "1.2",
+        "10.1",
+        "10.1"
+      ]
+    }
+  },
+  {
+    "query_id": "19",
+    "question": "What is client-centered therapy?",
+    "dense (question)": {
+      "hit": 1.0,
+      "precision": 0.625,
+      "mrr": 1.0,
+      "sections": [
+        "1.2",
+        "16.2",
+        "16.2",
+        "16.review",
+        "1.2",
+        "16.review",
+        "1.3",
+        "1.2"
+      ]
+    },
+    "dense (HyDE)": {
+      "hit": 1.0,
+      "precision": 0.625,
+      "mrr": 1.0,
+      "sections": [
+        "16.2",
+        "1.2",
+        "16.review",
+        "16.2",
+        "1.2",
+        "16.review",
+        "1.2",
+        "1.3"
+      ]
+    },
+    "dense (question) + rerank": {
+      "hit": 1.0,
+      "precision": 0.625,
+      "mrr": 0.333,
+      "sections": [
+        "16.review",
+        "16.review",
+        "16.2",
+        "1.2",
+        "1.2",
+        "16.2",
+        "16.review",
+        "1.2"
+      ]
+    },
+    "dense (HyDE) + rerank vs HyDE passage": {
+      "hit": 1.0,
+      "precision": 0.625,
+      "mrr": 1.0,
+      "sections": [
+        "1.2",
+        "16.2",
+        "16.review",
+        "1.2",
+        "16.review",
+        "1.2",
+        "16.2",
+        "16.review"
+      ]
+    },
+    "dense (HyDE) + rerank vs question": {
+      "hit": 1.0,
+      "precision": 0.625,
+      "mrr": 0.333,
+      "sections": [
+        "16.review",
+        "16.review",
+        "16.2",
+        "1.2",
+        "1.2",
+        "16.2",
+        "16.review",
+        "1.2"
+      ]
+    }
+  },
+  {
+    "query_id": "20",
+    "question": "What is cognitive psychology?",
+    "dense (question)": {
+      "hit": 1.0,
+      "precision": 0.625,
+      "mrr": 1.0,
+      "sections": [
+        "1.3",
+        "7.review",
+        "7.1",
+        "1.3",
+        "7.0",
+        "7.1",
+        "1.review",
+        "1.3"
+      ]
+    },
+    "dense (HyDE)": {
+      "hit": 1.0,
+      "precision": 0.5,
+      "mrr": 1.0,
+      "sections": [
+        "1.3",
+        "7.1",
+        "7.1",
+        "1.3",
+        "7.0",
+        "7.review",
+        "1.1",
+        "1.review"
+      ]
+    },
+    "dense (question) + rerank": {
+      "hit": 1.0,
+      "precision": 0.375,
+      "mrr": 1.0,
+      "sections": [
+        "1.3",
+        "7.review",
+        "7.1",
+        "7.review",
+        "7.0",
+        "1.3",
+        "7.review",
+        "1.review"
+      ]
+    },
+    "dense (HyDE) + rerank vs HyDE passage": {
+      "hit": 1.0,
+      "precision": 0.25,
+      "mrr": 1.0,
+      "sections": [
+        "7.1",
+        "1.3",
+        "7.0",
+        "11.4",
+        "7.review",
+        "7.review",
+        "1.0",
+        "7.0"
+      ]
+    },
+    "dense (HyDE) + rerank vs question": {
+      "hit": 1.0,
+      "precision": 0.375,
+      "mrr": 1.0,
+      "sections": [
+        "1.3",
+        "7.review",
+        "7.1",
+        "7.review",
+        "7.0",
+        "1.3",
+        "7.review",
+        "1.review"
+      ]
+    }
+  },
+  {
+    "query_id": "21",
+    "question": "What is developmental psychology?",
+    "dense (question)": {
+      "hit": 1.0,
+      "precision": 0.5,
+      "mrr": 0.5,
+      "sections": [
+        "9.review",
+        "9.1",
+        "1.3",
+        "9.1",
+        "1.review",
+        "9.review",
+        "1.review",
+        "1.3"
+      ]
+    },
+    "dense (HyDE)": {
+      "hit": 1.0,
+      "precision": 0.5,
+      "mrr": 0.5,
+      "sections": [
+        "9.review",
+        "9.1",
+        "1.3",
+        "9.0",
+        "9.review",
+        "9.1",
+        "1.3",
+        "1.review"
+      ]
+    },
+    "dense (question) + rerank": {
+      "hit": 1.0,
+      "precision": 0.5,
+      "mrr": 1.0,
+      "sections": [
+        "1.3",
+        "9.1",
+        "9.1",
+        "1.review",
+        "9.review",
+        "9.review",
+        "9.review",
+        "1.3"
+      ]
+    },
+    "dense (HyDE) + rerank vs HyDE passage": {
+      "hit": 1.0,
+      "precision": 0.625,
+      "mrr": 1.0,
+      "sections": [
+        "9.1",
+        "1.3",
+        "9.1",
+        "9.1",
+        "1.review",
+        "9.review",
+        "9.1",
+        "9.review"
+      ]
+    },
+    "dense (HyDE) + rerank vs question": {
+      "hit": 1.0,
+      "precision": 0.375,
+      "mrr": 1.0,
+      "sections": [
+        "1.3",
+        "9.1",
+        "9.1",
+        "1.review",
+        "9.review",
+        "9.review",
+        "9.review",
+        "1.review"
+      ]
+    }
+  },
+  {
+    "query_id": "22",
+    "question": "What is biopsychology?",
+    "dense (question)": {
+      "hit": 1.0,
+      "precision": 0.5,
+      "mrr": 0.25,
+      "sections": [
+        "1.review",
+        "3.0",
+        "1.0",
+        "1.3",
+        "1.3",
+        "1.3",
+        "1.review",
+        "1.3"
+      ]
+    },
+    "dense (HyDE)": {
+      "hit": 1.0,
+      "precision": 0.375,
+      "mrr": 0.5,
+      "sections": [
+        "3.0",
+        "1.3",
+        "1.review",
+        "1.3",
+        "1.review",
+        "1.review",
+        "1.3",
+        "1.0"
+      ]
+    },
+    "dense (question) + rerank": {
+      "hit": 1.0,
+      "precision": 0.625,
+      "mrr": 1.0,
+      "sections": [
+        "1.3",
+        "1.review",
+        "1.3",
+        "1.3",
+        "3.0",
+        "1.review",
+        "1.3",
+        "1.3"
+      ]
+    },
+    "dense (HyDE) + rerank vs HyDE passage": {
+      "hit": 1.0,
+      "precision": 0.375,
+      "mrr": 1.0,
+      "sections": [
+        "1.3",
+        "3.0",
+        "1.review",
+        "1.3",
+        "3.review",
+        "1.3",
+        "10.0",
+        "3.review"
+      ]
+    },
+    "dense (HyDE) + rerank vs question": {
+      "hit": 1.0,
+      "precision": 0.625,
+      "mrr": 1.0,
+      "sections": [
+        "1.3",
+        "1.review",
+        "1.3",
+        "1.3",
+        "3.0",
+        "1.review",
+        "1.3",
+        "1.3"
+      ]
+    }
+  },
+  {
+    "query_id": "23",
+    "question": "What are evolutionary psychologists interested in?",
+    "dense (question)": {
+      "hit": 1.0,
+      "precision": 0.625,
+      "mrr": 1.0,
+      "sections": [
+        "3.1",
+        "4.2",
+        "1.3",
+        "1.3",
+        "11.6",
+        "10.0",
+        "1.3",
+        "1.3"
+      ]
+    },
+    "dense (HyDE)": {
+      "hit": 1.0,
+      "precision": 0.75,
+      "mrr": 1.0,
+      "sections": [
+        "3.1",
+        "4.2",
+        "1.3",
+        "3.1",
+        "1.3",
+        "1.3",
+        "1.3",
+        "12.review"
+      ]
+    },
+    "dense (question) + rerank": {
+      "hit": 1.0,
+      "precision": 0.875,
+      "mrr": 1.0,
+      "sections": [
+        "3.1",
+        "3.1",
+        "1.3",
+        "4.2",
+        "1.3",
+        "1.3",
+        "1.3",
+        "1.3"
+      ]
+    },
+    "dense (HyDE) + rerank vs HyDE passage": {
+      "hit": 1.0,
+      "precision": 0.5,
+      "mrr": 1.0,
+      "sections": [
+        "3.1",
+        "1.3",
+        "1.3",
+        "1.3",
+        "11.4",
+        "10.0",
+        "12.review",
+        "6.1"
+      ]
+    },
+    "dense (HyDE) + rerank vs question": {
+      "hit": 1.0,
+      "precision": 0.875,
+      "mrr": 1.0,
+      "sections": [
+        "3.1",
+        "3.1",
+        "1.3",
+        "4.2",
+        "1.3",
+        "1.3",
+        "1.3",
+        "3.1"
+      ]
+    }
+  },
+  {
+    "query_id": "24",
+    "question": "What is sensation and perception?",
+    "dense (question)": {
+      "hit": 1.0,
+      "precision": 0.5,
+      "mrr": 1.0,
+      "sections": [
+        "5.1",
+        "5.0",
+        "5.review",
+        "1.3",
+        "5.1",
+        "5.0",
+        "5.1",
+        "5.review"
+      ]
+    },
+    "dense (HyDE)": {
+      "hit": 1.0,
+      "precision": 0.75,
+      "mrr": 1.0,
+      "sections": [
+        "5.1",
+        "5.1",
+        "5.review",
+        "5.0",
+        "5.1",
+        "5.1",
+        "5.1",
+        "1.3"
+      ]
+    },
+    "dense (question) + rerank": {
+      "hit": 1.0,
+      "precision": 0.625,
+      "mrr": 0.5,
+      "sections": [
+        "5.review",
+        "1.3",
+        "5.1",
+        "5.1",
+        "1.review",
+        "5.0",
+        "5.1",
+        "5.1"
+      ]
+    },
+    "dense (HyDE) + rerank vs HyDE passage": {
+      "hit": 1.0,
+      "precision": 0.5,
+      "mrr": 1.0,
+      "sections": [
+        "5.1",
+        "5.review",
+        "5.1",
+        "5.0",
+        "5.0",
+        "5.0",
+        "1.3",
+        "5.1"
+      ]
+    },
+    "dense (HyDE) + rerank vs question": {
+      "hit": 1.0,
+      "precision": 0.625,
+      "mrr": 0.5,
+      "sections": [
+        "5.review",
+        "1.3",
+        "5.1",
+        "5.1",
+        "1.review",
+        "5.0",
+        "5.1",
+        "5.1"
+      ]
+    }
+  },
+  {
+    "query_id": "25",
+    "question": "What is the difference between sensation and perception?",
+    "dense (question)": {
+      "hit": 1.0,
+      "precision": 0.375,
+      "mrr": 1.0,
+      "sections": [
+        "5.1",
+        "5.review",
+        "5.1",
+        "5.0",
+        "5.review",
+        "5.1",
+        "5.0",
+        "1.3"
+      ]
+    },
+    "dense (HyDE)": {
+      "hit": 1.0,
+      "precision": 0.625,
+      "mrr": 1.0,
+      "sections": [
+        "5.1",
+        "5.1",
+        "5.review",
+        "5.0",
+        "5.1",
+        "5.1",
+        "1.3",
+        "5.1"
+      ]
+    },
+    "dense (question) + rerank": {
+      "hit": 1.0,
+      "precision": 0.5,
+      "mrr": 1.0,
+      "sections": [
+        "5.1",
+        "5.review",
+        "5.1",
+        "5.1",
+        "5.1",
+        "1.3",
+        "5.0",
+        "1.3"
+      ]
+    },
+    "dense (HyDE) + rerank vs HyDE passage": {
+      "hit": 1.0,
+      "precision": 0.375,
+      "mrr": 0.5,
+      "sections": [
+        "5.review",
+        "5.1",
+        "5.0",
+        "5.1",
+        "5.0",
+        "5.0",
+        "5.review",
+        "5.1"
+      ]
+    },
+    "dense (HyDE) + rerank vs question": {
+      "hit": 1.0,
+      "precision": 0.5,
+      "mrr": 1.0,
+      "sections": [
+        "5.1",
+        "5.review",
+        "5.1",
+        "5.1",
+        "5.1",
+        "1.3",
+        "5.0",
+        "1.3"
+      ]
+    }
+  },
+  {
+    "query_id": "26",
+    "question": "What are Jean Piaget's theories of cognitive development?",
+    "dense (question)": {
+      "hit": 1.0,
+      "precision": 0.625,
+      "mrr": 1.0,
+      "sections": [
+        "9.2",
+        "1.3",
+        "9.2",
+        "9.review",
+        "9.2",
+        "9.2",
+        "9.review",
+        "9.2"
+      ]
+    },
+    "dense (HyDE)": {
+      "hit": 1.0,
+      "precision": 0.75,
+      "mrr": 1.0,
+      "sections": [
+        "9.2",
+        "9.2",
+        "9.2",
+        "9.2",
+        "9.2",
+        "9.2",
+        "9.review",
+        "9.review"
+      ]
+    },
+    "dense (question) + rerank": {
+      "hit": 1.0,
+      "precision": 0.625,
+      "mrr": 1.0,
+      "sections": [
+        "9.2",
+        "9.review",
+        "9.2",
+        "9.2",
+        "1.3",
+        "9.2",
+        "9.review",
+        "9.2"
+      ]
+    },
+    "dense (HyDE) + rerank vs HyDE passage": {
+      "hit": 1.0,
+      "precision": 0.75,
+      "mrr": 1.0,
+      "sections": [
+        "9.2",
+        "9.2",
+        "9.2",
+        "9.2",
+        "9.2",
+        "9.3",
+        "9.review",
+        "9.2"
+      ]
+    },
+    "dense (HyDE) + rerank vs question": {
+      "hit": 1.0,
+      "precision": 0.625,
+      "mrr": 1.0,
+      "sections": [
+        "9.2",
+        "9.review",
+        "9.2",
+        "9.2",
+        "1.3",
+        "9.2",
+        "9.review",
+        "9.2"
+      ]
+    }
+  },
+  {
+    "query_id": "27",
+    "question": "What is object permanence?",
+    "dense (question)": {
+      "hit": 1.0,
+      "precision": 0.375,
+      "mrr": 1.0,
+      "sections": [
+        "9.2",
+        "9.3",
+        "1.3",
+        "1.3",
+        "9.2",
+        "9.3",
+        "9.2",
+        "7.3"
+      ]
+    },
+    "dense (HyDE)": {
+      "hit": 1.0,
+      "precision": 0.375,
+      "mrr": 1.0,
+      "sections": [
+        "9.2",
+        "9.3",
+        "9.3",
+        "1.3",
+        "1.3",
+        "9.2",
+        "9.3",
+        "9.2"
+      ]
+    },
+    "dense (question) + rerank": {
+      "hit": 1.0,
+      "precision": 0.25,
+      "mrr": 0.5,
+      "sections": [
+        "1.3",
+        "9.2",
+        "9.2",
+        "9.review",
+        "9.3",
+        "9.3",
+        "9.1",
+        "1.3"
+      ]
+    },
+    "dense (HyDE) + rerank vs HyDE passage": {
+      "hit": 1.0,
+      "precision": 0.25,
+      "mrr": 1.0,
+      "sections": [
+        "9.2",
+        "9.3",
+        "9.3",
+        "9.review",
+        "9.2",
+        "9.3",
+        "1.3",
+        "9.review"
+      ]
+    },
+    "dense (HyDE) + rerank vs question": {
+      "hit": 1.0,
+      "precision": 0.375,
+      "mrr": 0.5,
+      "sections": [
+        "1.3",
+        "9.2",
+        "9.2",
+        "9.review",
+        "9.review",
+        "9.3",
+        "9.2",
+        "9.3"
+      ]
+    }
+  },
+  {
+    "query_id": "28",
+    "question": "What is the role of neurotransmitters in psychology?",
+    "dense (question)": {
+      "hit": 1.0,
+      "precision": 0.375,
+      "mrr": 1.0,
+      "sections": [
+        "3.2",
+        "8.2",
+        "8.2",
+        "3.2",
+        "3.2",
+        "3.review",
+        "3.review",
+        "8.2"
+      ]
+    },
+    "dense (HyDE)": {
+      "hit": 1.0,
+      "precision": 0.25,
+      "mrr": 1.0,
+      "sections": [
+        "3.2",
+        "3.2",
+        "3.review",
+        "8.2",
+        "15.7",
+        "3.review",
+        "15.7",
+        "8.2"
+      ]
+    },
+    "dense (question) + rerank": {
+      "hit": 1.0,
+      "precision": 0.375,
+      "mrr": 1.0,
+      "sections": [
+        "3.2",
+        "8.2",
+        "8.2",
+        "15.7",
+        "3.2",
+        "8.2",
+        "3.2",
+        "16.2"
+      ]
+    },
+    "dense (HyDE) + rerank vs HyDE passage": {
+      "hit": 1.0,
+      "precision": 0.25,
+      "mrr": 1.0,
+      "sections": [
+        "3.2",
+        "8.2",
+        "15.7",
+        "10.0",
+        "15.review",
+        "3.review",
+        "15.7",
+        "3.2"
+      ]
+    },
+    "dense (HyDE) + rerank vs question": {
+      "hit": 1.0,
+      "precision": 0.375,
+      "mrr": 1.0,
+      "sections": [
+        "3.2",
+        "8.2",
+        "8.2",
+        "15.7",
+        "3.2",
+        "8.2",
+        "3.2",
+        "16.2"
+      ]
+    }
+  },
+  {
+    "query_id": "29",
+    "question": "What is the Big Five personality trait model?",
+    "dense (question)": {
+      "hit": 1.0,
+      "precision": 0.875,
+      "mrr": 0.5,
+      "sections": [
+        "1.3",
+        "11.7",
+        "11.7",
+        "11.7",
+        "11.7",
+        "11.7",
+        "11.7",
+        "11.7"
+      ]
+    },
+    "dense (HyDE)": {
+      "hit": 1.0,
+      "precision": 0.75,
+      "mrr": 0.5,
+      "sections": [
+        "1.3",
+        "11.7",
+        "11.review",
+        "11.7",
+        "11.7",
+        "11.7",
+        "11.7",
+        "11.7"
+      ]
+    },
+    "dense (question) + rerank": {
+      "hit": 1.0,
+      "precision": 0.75,
+      "mrr": 1.0,
+      "sections": [
+        "11.7",
+        "1.3",
+        "11.7",
+        "11.7",
+        "11.8",
+        "11.7",
+        "11.7",
+        "11.7"
+      ]
+    },
+    "dense (HyDE) + rerank vs HyDE passage": {
+      "hit": 1.0,
+      "precision": 0.75,
+      "mrr": 1.0,
+      "sections": [
+        "11.7",
+        "11.7",
+        "11.7",
+        "11.7",
+        "11.7",
+        "1.3",
+        "11.7",
+        "11.review"
+      ]
+    },
+    "dense (HyDE) + rerank vs question": {
+      "hit": 1.0,
+      "precision": 0.75,
+      "mrr": 1.0,
+      "sections": [
+        "11.7",
+        "1.3",
+        "11.7",
+        "11.7",
+        "11.8",
+        "11.7",
+        "11.7",
+        "11.7"
+      ]
+    }
+  },
+  {
+    "query_id": "30",
+    "question": "What are psychological disorders?",
+    "dense (question)": {
+      "hit": 1.0,
+      "precision": 0.375,
+      "mrr": 1.0,
+      "sections": [
+        "15.1",
+        "15.1",
+        "15.1",
+        "15.2",
+        "15.review",
+        "15.0",
+        "15.review",
+        "15.2"
+      ]
+    },
+    "dense (HyDE)": {
+      "hit": 1.0,
+      "precision": 0.5,
+      "mrr": 1.0,
+      "sections": [
+        "15.1",
+        "15.1",
+        "15.1",
+        "15.review",
+        "15.1",
+        "15.2",
+        "15.review",
+        "15.2"
+      ]
+    },
+    "dense (question) + rerank": {
+      "hit": 1.0,
+      "precision": 0.375,
+      "mrr": 1.0,
+      "sections": [
+        "15.1",
+        "15.review",
+        "15.2",
+        "15.1",
+        "15.2",
+        "15.0",
+        "15.2",
+        "15.1"
+      ]
+    },
+    "dense (HyDE) + rerank vs HyDE passage": {
+      "hit": 1.0,
+      "precision": 0.5,
+      "mrr": 1.0,
+      "sections": [
+        "15.1",
+        "15.1",
+        "15.2",
+        "15.review",
+        "15.1",
+        "15.review",
+        "15.1",
+        "15.2"
+      ]
+    },
+    "dense (HyDE) + rerank vs question": {
+      "hit": 1.0,
+      "precision": 0.375,
+      "mrr": 1.0,
+      "sections": [
+        "15.1",
+        "15.review",
+        "15.2",
+        "15.1",
+        "15.2",
+        "15.0",
+        "15.1",
+        "15.review"
+      ]
+    }
+  },
+  {
+    "query_id": "31",
+    "question": "What is the DSM-5?",
+    "dense (question)": {
+      "hit": 1.0,
+      "precision": 0.25,
+      "mrr": 0.25,
+      "sections": [
+        "15.review",
+        "15.review",
+        "4.5",
+        "15.2",
+        "15.review",
+        "15.review",
+        "15.2",
+        "15.review"
+      ]
+    },
+    "dense (HyDE)": {
+      "hit": 1.0,
+      "precision": 0.625,
+      "mrr": 0.5,
+      "sections": [
+        "15.review",
+        "15.2",
+        "4.5",
+        "15.2",
+        "15.2",
+        "15.2",
+        "15.2",
+        "15.review"
+      ]
+    },
+    "dense (question) + rerank": {
+      "hit": 1.0,
+      "precision": 0.25,
+      "mrr": 1.0,
+      "sections": [
+        "15.2",
+        "15.review",
+        "4.5",
+        "15.review",
+        "15.review",
+        "15.10",
+        "15.review",
+        "15.2"
+      ]
+    },
+    "dense (HyDE) + rerank vs HyDE passage": {
+      "hit": 1.0,
+      "precision": 0.375,
+      "mrr": 1.0,
+      "sections": [
+        "15.2",
+        "15.review",
+        "15.2",
+        "15.review",
+        "15.review",
+        "15.review",
+        "15.2",
+        "15.11"
+      ]
+    },
+    "dense (HyDE) + rerank vs question": {
+      "hit": 1.0,
+      "precision": 0.25,
+      "mrr": 1.0,
+      "sections": [
+        "15.2",
+        "15.review",
+        "4.5",
+        "15.review",
+        "15.review",
+        "15.10",
+        "15.review",
+        "15.2"
+      ]
+    }
+  },
+  {
+    "query_id": "32",
+    "question": "What is the importance of ethics in psychological research?",
+    "dense (question)": {
+      "hit": 1.0,
+      "precision": 0.25,
+      "mrr": 0.25,
+      "sections": [
+        "2.review",
+        "2.review",
+        "2.review",
+        "2.4",
+        "2.4",
+        "2.3",
+        "2.review",
+        "2.3"
+      ]
+    },
+    "dense (HyDE)": {
+      "hit": 1.0,
+      "precision": 0.25,
+      "mrr": 0.5,
+      "sections": [
+        "2.review",
+        "2.4",
+        "2.3",
+        "2.review",
+        "2.4",
+        "2.3",
+        "2.review",
+        "2.review"
+      ]
+    },
+    "dense (question) + rerank": {
+      "hit": 1.0,
+      "precision": 0.375,
+      "mrr": 0.333,
+      "sections": [
+        "1.3",
+        "2.review",
+        "2.4",
+        "2.0",
+        "2.2",
+        "2.4",
+        "14.4",
+        "2.4"
+      ]
+    },
+    "dense (HyDE) + rerank vs HyDE passage": {
+      "hit": 1.0,
+      "precision": 0.25,
+      "mrr": 0.333,
+      "sections": [
+        "2.review",
+        "2.review",
+        "2.4",
+        "2.review",
+        "2.review",
+        "2.4",
+        "2.3",
+        "2.review"
+      ]
+    },
+    "dense (HyDE) + rerank vs question": {
+      "hit": 1.0,
+      "precision": 0.375,
+      "mrr": 0.333,
+      "sections": [
+        "1.3",
+        "2.review",
+        "2.4",
+        "2.0",
+        "2.2",
+        "2.4",
+        "14.4",
+        "2.4"
+      ]
+    }
+  },
+  {
+    "query_id": "33",
+    "question": "What is the cognitive revolution in psychology?",
+    "dense (question)": {
+      "hit": 1.0,
+      "precision": 0.5,
+      "mrr": 1.0,
+      "sections": [
+        "1.2",
+        "1.2",
+        "1.3",
+        "1.review",
+        "1.2",
+        "1.3",
+        "1.2",
+        "7.1"
+      ]
+    },
+    "dense (HyDE)": {
+      "hit": 1.0,
+      "precision": 0.5,
+      "mrr": 1.0,
+      "sections": [
+        "1.2",
+        "1.2",
+        "1.3",
+        "1.review",
+        "1.2",
+        "1.review",
+        "1.3",
+        "1.2"
+      ]
+    },
+    "dense (question) + rerank": {
+      "hit": 1.0,
+      "precision": 0.5,
+      "mrr": 1.0,
+      "sections": [
+        "1.2",
+        "1.2",
+        "1.3",
+        "1.review",
+        "1.2",
+        "1.2",
+        "1.3",
+        "1.review"
+      ]
+    },
+    "dense (HyDE) + rerank vs HyDE passage": {
+      "hit": 1.0,
+      "precision": 0.5,
+      "mrr": 1.0,
+      "sections": [
+        "1.2",
+        "1.2",
+        "1.review",
+        "1.2",
+        "7.review",
+        "1.2",
+        "7.0",
+        "7.0"
+      ]
+    },
+    "dense (HyDE) + rerank vs question": {
+      "hit": 1.0,
+      "precision": 0.5,
+      "mrr": 1.0,
+      "sections": [
+        "1.2",
+        "1.2",
+        "1.3",
+        "1.review",
+        "1.2",
+        "1.2",
+        "1.3",
+        "1.review"
+      ]
+    }
+  },
+  {
+    "query_id": "34",
+    "question": "What is feminist psychology?",
+    "dense (question)": {
+      "hit": 1.0,
+      "precision": 0.5,
+      "mrr": 1.0,
+      "sections": [
+        "1.2",
+        "1.2",
+        "1.2",
+        "1.2",
+        "13.1",
+        "1.3",
+        "12.5",
+        "12.review"
+      ]
+    },
+    "dense (HyDE)": {
+      "hit": 1.0,
+      "precision": 0.5,
+      "mrr": 1.0,
+      "sections": [
+        "1.2",
+        "1.2",
+        "1.2",
+        "1.3",
+        "12.review",
+        "1.2",
+        "1.3",
+        "12.5"
+      ]
+    },
+    "dense (question) + rerank": {
+      "hit": 1.0,
+      "precision": 0.625,
+      "mrr": 1.0,
+      "sections": [
+        "1.2",
+        "1.2",
+        "1.2",
+        "1.2",
+        "12.5",
+        "1.2",
+        "1.0",
+        "2.1"
+      ]
+    },
+    "dense (HyDE) + rerank vs HyDE passage": {
+      "hit": 1.0,
+      "precision": 0.375,
+      "mrr": 1.0,
+      "sections": [
+        "1.2",
+        "1.2",
+        "1.2",
+        "10.0",
+        "1.0",
+        "1.1",
+        "1.3",
+        "12.review"
+      ]
+    },
+    "dense (HyDE) + rerank vs question": {
+      "hit": 1.0,
+      "precision": 0.5,
+      "mrr": 1.0,
+      "sections": [
+        "1.2",
+        "1.2",
+        "1.2",
+        "1.2",
+        "12.5",
+        "1.0",
+        "2.1",
+        "12.5"
+      ]
+    }
+  },
+  {
+    "query_id": "35",
+    "question": "What is multicultural psychology?",
+    "dense (question)": {
+      "hit": 1.0,
+      "precision": 0.875,
+      "mrr": 1.0,
+      "sections": [
+        "1.2",
+        "1.2",
+        "16.5",
+        "1.3",
+        "1.2",
+        "1.3",
+        "1.2",
+        "1.2"
+      ]
+    },
+    "dense (HyDE)": {
+      "hit": 1.0,
+      "precision": 0.75,
+      "mrr": 1.0,
+      "sections": [
+        "1.3",
+        "1.2",
+        "12.review",
+        "16.5",
+        "1.2",
+        "1.3",
+        "1.2",
+        "1.3"
+      ]
+    },
+    "dense (question) + rerank": {
+      "hit": 1.0,
+      "precision": 0.375,
+      "mrr": 1.0,
+      "sections": [
+        "1.2",
+        "1.2",
+        "11.review",
+        "1.2",
+        "11.review",
+        "16.5",
+        "11.8",
+        "12.review"
+      ]
+    },
+    "dense (HyDE) + rerank vs HyDE passage": {
+      "hit": 1.0,
+      "precision": 0.375,
+      "mrr": 1.0,
+      "sections": [
+        "1.2",
+        "11.8",
+        "1.2",
+        "1.0",
+        "13.1",
+        "1.review",
+        "7.0",
+        "1.3"
+      ]
+    },
+    "dense (HyDE) + rerank vs question": {
+      "hit": 1.0,
+      "precision": 0.5,
+      "mrr": 1.0,
+      "sections": [
+        "1.2",
+        "1.2",
+        "1.2",
+        "16.5",
+        "11.8",
+        "12.review",
+        "1.3",
+        "1.1"
+      ]
+    }
+  },
+  {
+    "query_id": "36",
+    "question": "What are the challenges of cross-cultural psychology?",
+    "dense (question)": {
+      "hit": 1.0,
+      "precision": 0.625,
+      "mrr": 1.0,
+      "sections": [
+        "1.2",
+        "1.2",
+        "11.8",
+        "1.2",
+        "16.5",
+        "11.8",
+        "16.5",
+        "16.review"
+      ]
+    },
+    "dense (HyDE)": {
+      "hit": 1.0,
+      "precision": 0.625,
+      "mrr": 1.0,
+      "sections": [
+        "11.8",
+        "1.2",
+        "11.review",
+        "11.8",
+        "5.1",
+        "14.5",
+        "11.8",
+        "1.2"
+      ]
+    },
+    "dense (question) + rerank": {
+      "hit": 1.0,
+      "precision": 0.5,
+      "mrr": 1.0,
+      "sections": [
+        "1.2",
+        "11.8",
+        "1.2",
+        "1.2",
+        "11.9",
+        "16.review",
+        "5.1",
+        "16.5"
+      ]
+    },
+    "dense (HyDE) + rerank vs HyDE passage": {
+      "hit": 1.0,
+      "precision": 0.625,
+      "mrr": 1.0,
+      "sections": [
+        "1.2",
+        "1.2",
+        "11.8",
+        "1.2",
+        "11.9",
+        "11.8",
+        "15.1",
+        "15.1"
+      ]
+    },
+    "dense (HyDE) + rerank vs question": {
+      "hit": 1.0,
+      "precision": 0.5,
+      "mrr": 1.0,
+      "sections": [
+        "1.2",
+        "11.8",
+        "1.2",
+        "1.2",
+        "11.9",
+        "16.review",
+        "5.1",
+        "16.5"
+      ]
+    }
+  },
+  {
+    "query_id": "37",
+    "question": "What is stress in psychology?",
+    "dense (question)": {
+      "hit": 1.0,
+      "precision": 0.625,
+      "mrr": 0.5,
+      "sections": [
+        "14.review",
+        "14.1",
+        "14.1",
+        "14.1",
+        "14.0",
+        "14.0",
+        "14.1",
+        "14.1"
+      ]
+    },
+    "dense (HyDE)": {
+      "hit": 1.0,
+      "precision": 0.375,
+      "mrr": 0.5,
+      "sections": [
+        "14.review",
+        "14.1",
+        "14.1",
+        "14.review",
+        "14.3",
+        "14.3",
+        "3.3",
+        "14.1"
+      ]
+    },
+    "dense (question) + rerank": {
+      "hit": 1.0,
+      "precision": 0.625,
+      "mrr": 0.333,
+      "sections": [
+        "14.review",
+        "14.0",
+        "14.1",
+        "14.1",
+        "14.1",
+        "14.1",
+        "14.3",
+        "14.1"
+      ]
+    },
+    "dense (HyDE) + rerank vs HyDE passage": {
+      "hit": 1.0,
+      "precision": 0.625,
+      "mrr": 1.0,
+      "sections": [
+        "14.1",
+        "14.1",
+        "3.3",
+        "14.review",
+        "14.1",
+        "14.1",
+        "14.1",
+        "14.review"
+      ]
+    },
+    "dense (HyDE) + rerank vs question": {
+      "hit": 1.0,
+      "precision": 0.625,
+      "mrr": 0.333,
+      "sections": [
+        "14.review",
+        "14.0",
+        "14.1",
+        "14.1",
+        "14.1",
+        "14.1",
+        "14.3",
+        "14.1"
+      ]
+    }
+  },
+  {
+    "query_id": "38",
+    "question": "What are the stages of psychosexual development?",
+    "dense (question)": {
+      "hit": 1.0,
+      "precision": 0.75,
+      "mrr": 1.0,
+      "sections": [
+        "11.2",
+        "11.review",
+        "11.2",
+        "11.2",
+        "9.2",
+        "11.2",
+        "9.review",
+        "9.2"
+      ]
+    },
+    "dense (HyDE)": {
+      "hit": 1.0,
+      "precision": 0.875,
+      "mrr": 1.0,
+      "sections": [
+        "11.2",
+        "9.2",
+        "11.2",
+        "11.2",
+        "11.2",
+        "11.2",
+        "9.2",
+        "9.review"
+      ]
+    },
+    "dense (question) + rerank": {
+      "hit": 1.0,
+      "precision": 0.75,
+      "mrr": 1.0,
+      "sections": [
+        "11.2",
+        "9.2",
+        "11.2",
+        "11.2",
+        "11.review",
+        "11.review",
+        "11.2",
+        "11.2"
+      ]
+    },
+    "dense (HyDE) + rerank vs HyDE passage": {
+      "hit": 1.0,
+      "precision": 0.75,
+      "mrr": 1.0,
+      "sections": [
+        "11.2",
+        "11.2",
+        "11.2",
+        "11.2",
+        "9.2",
+        "11.review",
+        "11.2",
+        "11.review"
+      ]
+    },
+    "dense (HyDE) + rerank vs question": {
+      "hit": 1.0,
+      "precision": 0.75,
+      "mrr": 1.0,
+      "sections": [
+        "11.2",
+        "9.2",
+        "11.2",
+        "11.2",
+        "11.review",
+        "11.review",
+        "11.2",
+        "11.2"
+      ]
+    }
+  },
+  {
+    "query_id": "39",
+    "question": "What is the importance of replication in psychological research?",
+    "dense (question)": {
+      "hit": 1.0,
+      "precision": 0.5,
+      "mrr": 0.5,
+      "sections": [
+        "2.review",
+        "2.3",
+        "2.3",
+        "2.review",
+        "2.3",
+        "12.2",
+        "2.review",
+        "2.3"
+      ]
+    },
+    "dense (HyDE)": {
+      "hit": 1.0,
+      "precision": 0.625,
+      "mrr": 1.0,
+      "sections": [
+        "2.3",
+        "2.review",
+        "2.3",
+        "2.3",
+        "2.review",
+        "2.3",
+        "2.1",
+        "2.review"
+      ]
+    },
+    "dense (question) + rerank": {
+      "hit": 1.0,
+      "precision": 0.5,
+      "mrr": 0.333,
+      "sections": [
+        "2.review",
+        "2.review",
+        "2.3",
+        "2.3",
+        "2.3",
+        "2.3",
+        "12.4",
+        "2.review"
+      ]
+    },
+    "dense (HyDE) + rerank vs HyDE passage": {
+      "hit": 1.0,
+      "precision": 0.5,
+      "mrr": 0.5,
+      "sections": [
+        "2.review",
+        "2.1",
+        "2.3",
+        "2.3",
+        "2.2",
+        "2.3",
+        "2.review",
+        "2.review"
+      ]
+    },
+    "dense (HyDE) + rerank vs question": {
+      "hit": 1.0,
+      "precision": 0.625,
+      "mrr": 0.333,
+      "sections": [
+        "2.review",
+        "2.review",
+        "2.3",
+        "2.3",
+        "2.3",
+        "2.3",
+        "2.3",
+        "12.4"
+      ]
+    }
+  },
+  {
+    "query_id": "40",
+    "question": "What are different types of psychological therapies?",
+    "dense (question)": {
+      "hit": 1.0,
+      "precision": 0.5,
+      "mrr": 1.0,
+      "sections": [
+        "16.2",
+        "16.0",
+        "16.0",
+        "16.review",
+        "16.2",
+        "16.2",
+        "16.review",
+        "16.2"
+      ]
+    },
+    "dense (HyDE)": {
+      "hit": 1.0,
+      "precision": 0.75,
+      "mrr": 1.0,
+      "sections": [
+        "16.2",
+        "16.2",
+        "16.2",
+        "16.2",
+        "16.2",
+        "16.review",
+        "16.review",
+        "16.2"
+      ]
+    },
+    "dense (question) + rerank": {
+      "hit": 1.0,
+      "precision": 0.625,
+      "mrr": 1.0,
+      "sections": [
+        "16.2",
+        "16.2",
+        "16.2",
+        "16.review",
+        "16.2",
+        "1.3",
+        "16.2",
+        "16.review"
+      ]
+    },
+    "dense (HyDE) + rerank vs HyDE passage": {
+      "hit": 1.0,
+      "precision": 0.375,
+      "mrr": 1.0,
+      "sections": [
+        "16.2",
+        "16.2",
+        "16.review",
+        "16.0",
+        "16.1",
+        "16.review",
+        "16.2",
+        "16.0"
+      ]
+    },
+    "dense (HyDE) + rerank vs question": {
+      "hit": 1.0,
+      "precision": 0.625,
+      "mrr": 1.0,
+      "sections": [
+        "16.2",
+        "16.2",
+        "16.2",
+        "16.review",
+        "16.2",
+        "1.3",
+        "16.2",
+        "16.review"
+      ]
+    }
+  },
+  {
+    "query_id": "41",
+    "question": "What is the role of neurotransmitters in mental health?",
+    "dense (question)": {
+      "hit": 1.0,
+      "precision": 0.75,
+      "mrr": 1.0,
+      "sections": [
+        "3.2",
+        "15.8",
+        "15.3",
+        "15.7",
+        "15.review",
+        "15.7",
+        "8.2",
+        "3.2"
+      ]
+    },
+    "dense (HyDE)": {
+      "hit": 1.0,
+      "precision": 0.875,
+      "mrr": 1.0,
+      "sections": [
+        "3.2",
+        "15.7",
+        "15.7",
+        "16.2",
+        "15.3",
+        "15.8",
+        "3.review",
+        "3.2"
+      ]
+    },
+    "dense (question) + rerank": {
+      "hit": 1.0,
+      "precision": 0.5,
+      "mrr": 1.0,
+      "sections": [
+        "15.7",
+        "8.2",
+        "8.2",
+        "15.review",
+        "3.2",
+        "3.2",
+        "16.2",
+        "15.6"
+      ]
+    },
+    "dense (HyDE) + rerank vs HyDE passage": {
+      "hit": 1.0,
+      "precision": 0.625,
+      "mrr": 1.0,
+      "sections": [
+        "3.2",
+        "8.2",
+        "15.7",
+        "3.2",
+        "15.7",
+        "15.review",
+        "3.1",
+        "3.2"
+      ]
+    },
+    "dense (HyDE) + rerank vs question": {
+      "hit": 1.0,
+      "precision": 0.5,
+      "mrr": 1.0,
+      "sections": [
+        "15.7",
+        "8.2",
+        "8.2",
+        "15.review",
+        "3.2",
+        "3.2",
+        "16.2",
+        "15.6"
+      ]
+    }
+  },
+  {
+    "query_id": "42",
+    "question": "What are major themes in industrial-organizational psychology?",
+    "dense (question)": {
+      "hit": 1.0,
+      "precision": 0.5,
+      "mrr": 0.5,
+      "sections": [
+        "13.review",
+        "13.1",
+        "1.3",
+        "13.3",
+        "13.1",
+        "13.1",
+        "13.1",
+        "13.review"
+      ]
+    },
+    "dense (HyDE)": {
+      "hit": 1.0,
+      "precision": 0.375,
+      "mrr": 0.5,
+      "sections": [
+        "1.3",
+        "13.1",
+        "13.1",
+        "13.2",
+        "13.review",
+        "13.review",
+        "13.3",
+        "13.1"
+      ]
+    },
+    "dense (question) + rerank": {
+      "hit": 1.0,
+      "precision": 0.5,
+      "mrr": 1.0,
+      "sections": [
+        "13.1",
+        "13.review",
+        "1.3",
+        "13.1",
+        "13.1",
+        "13.3",
+        "13.1",
+        "13.review"
+      ]
+    },
+    "dense (HyDE) + rerank vs HyDE passage": {
+      "hit": 1.0,
+      "precision": 0.5,
+      "mrr": 1.0,
+      "sections": [
+        "13.1",
+        "13.review",
+        "1.3",
+        "13.1",
+        "13.1",
+        "13.1",
+        "13.2",
+        "13.review"
+      ]
+    },
+    "dense (HyDE) + rerank vs question": {
+      "hit": 1.0,
+      "precision": 0.5,
+      "mrr": 1.0,
+      "sections": [
+        "13.1",
+        "13.review",
+        "1.3",
+        "13.1",
+        "13.1",
+        "13.3",
+        "13.1",
+        "13.review"
+      ]
+    }
+  },
+  {
+    "query_id": "43",
+    "question": "What is the role of social norms in behavior?",
+    "dense (question)": {
+      "hit": 1.0,
+      "precision": 0.625,
+      "mrr": 1.0,
+      "sections": [
+        "12.2",
+        "12.review",
+        "12.review",
+        "12.2",
+        "12.review",
+        "12.2",
+        "12.2",
+        "12.4"
+      ]
+    },
+    "dense (HyDE)": {
+      "hit": 1.0,
+      "precision": 0.625,
+      "mrr": 1.0,
+      "sections": [
+        "12.2",
+        "12.review",
+        "12.4",
+        "12.2",
+        "12.review",
+        "12.2",
+        "12.review",
+        "12.4"
+      ]
+    },
+    "dense (question) + rerank": {
+      "hit": 1.0,
+      "precision": 0.625,
+      "mrr": 0.5,
+      "sections": [
+        "12.review",
+        "12.2",
+        "12.2",
+        "12.2",
+        "12.2",
+        "12.review",
+        "12.2",
+        "12.review"
+      ]
+    },
+    "dense (HyDE) + rerank vs HyDE passage": {
+      "hit": 1.0,
+      "precision": 0.625,
+      "mrr": 0.5,
+      "sections": [
+        "12.review",
+        "12.4",
+        "12.2",
+        "12.review",
+        "12.4",
+        "12.2",
+        "12.4",
+        "15.1"
+      ]
+    },
+    "dense (HyDE) + rerank vs question": {
+      "hit": 1.0,
+      "precision": 0.5,
+      "mrr": 0.5,
+      "sections": [
+        "12.review",
+        "12.2",
+        "12.2",
+        "12.2",
+        "12.review",
+        "12.2",
+        "12.review",
+        "13.1"
+      ]
+    }
+  },
+  {
+    "query_id": "44",
+    "question": "What is the difference between prejudice and discrimination?",
+    "dense (question)": {
+      "hit": 1.0,
+      "precision": 0.75,
+      "mrr": 1.0,
+      "sections": [
+        "12.5",
+        "12.review",
+        "12.5",
+        "12.5",
+        "12.5",
+        "12.review",
+        "12.5",
+        "12.5"
+      ]
+    },
+    "dense (HyDE)": {
+      "hit": 1.0,
+      "precision": 0.875,
+      "mrr": 0.5,
+      "sections": [
+        "12.review",
+        "12.5",
+        "12.5",
+        "12.5",
+        "12.5",
+        "12.5",
+        "12.5",
+        "12.5"
+      ]
+    },
+    "dense (question) + rerank": {
+      "hit": 1.0,
+      "precision": 0.75,
+      "mrr": 0.5,
+      "sections": [
+        "12.review",
+        "12.5",
+        "12.5",
+        "12.5",
+        "12.5",
+        "12.5",
+        "12.5",
+        "12.review"
+      ]
+    },
+    "dense (HyDE) + rerank vs HyDE passage": {
+      "hit": 1.0,
+      "precision": 0.875,
+      "mrr": 1.0,
+      "sections": [
+        "12.5",
+        "12.5",
+        "12.review",
+        "12.5",
+        "12.5",
+        "12.5",
+        "12.5",
+        "12.5"
+      ]
+    },
+    "dense (HyDE) + rerank vs question": {
+      "hit": 1.0,
+      "precision": 0.75,
+      "mrr": 0.5,
+      "sections": [
+        "12.review",
+        "12.5",
+        "12.5",
+        "12.5",
+        "12.5",
+        "12.5",
+        "12.5",
+        "12.review"
+      ]
+    }
+  },
+  {
+    "query_id": "45",
+    "question": "What are key takeaways from the Brown v. Board of Education research?",
+    "dense (question)": {
+      "hit": 1.0,
+      "precision": 0.5,
+      "mrr": 1.0,
+      "sections": [
+        "1.2",
+        "9.3",
+        "1.2",
+        "2.1",
+        "2.1",
+        "9.3",
+        "9.3",
+        "9.3"
+      ]
+    },
+    "dense (HyDE)": {
+      "hit": 1.0,
+      "precision": 0.5,
+      "mrr": 0.5,
+      "sections": [
+        "9.3",
+        "1.2",
+        "2.1",
+        "2.1",
+        "9.3",
+        "1.2",
+        "9.3",
+        "9.3"
+      ]
+    },
+    "dense (question) + rerank": {
+      "hit": 1.0,
+      "precision": 0.5,
+      "mrr": 1.0,
+      "sections": [
+        "2.1",
+        "2.1",
+        "1.2",
+        "1.2",
+        "9.3",
+        "9.3",
+        "2.3",
+        "9.3"
+      ]
+    },
+    "dense (HyDE) + rerank vs HyDE passage": {
+      "hit": 1.0,
+      "precision": 0.375,
+      "mrr": 0.5,
+      "sections": [
+        "9.3",
+        "1.2",
+        "2.1",
+        "1.2",
+        "12.3",
+        "12.4",
+        "14.3",
+        "7.6"
+      ]
+    },
+    "dense (HyDE) + rerank vs question": {
+      "hit": 1.0,
+      "precision": 0.5,
+      "mrr": 1.0,
+      "sections": [
+        "2.1",
+        "2.1",
+        "1.2",
+        "1.2",
+        "9.3",
+        "9.3",
+        "2.3",
+        "9.3"
+      ]
+    }
+  },
+  {
+    "query_id": "46",
+    "question": "What is the scientific process of hypothesis testing?",
+    "dense (question)": {
+      "hit": 1.0,
+      "precision": 0.75,
+      "mrr": 1.0,
+      "sections": [
+        "2.1",
+        "2.1",
+        "2.1",
+        "2.3",
+        "2.1",
+        "2.review",
+        "2.1",
+        "1.1"
+      ]
+    },
+    "dense (HyDE)": {
+      "hit": 1.0,
+      "precision": 0.5,
+      "mrr": 0.25,
+      "sections": [
+        "2.3",
+        "2.3",
+        "2.review",
+        "2.1",
+        "2.1",
+        "2.1",
+        "2.1",
+        "2.review"
+      ]
+    },
+    "dense (question) + rerank": {
+      "hit": 1.0,
+      "precision": 0.75,
+      "mrr": 1.0,
+      "sections": [
+        "2.1",
+        "2.1",
+        "1.1",
+        "2.1",
+        "2.1",
+        "2.1",
+        "2.3",
+        "2.review"
+      ]
+    },
+    "dense (HyDE) + rerank vs HyDE passage": {
+      "hit": 1.0,
+      "precision": 0.5,
+      "mrr": 1.0,
+      "sections": [
+        "2.1",
+        "2.1",
+        "1.1",
+        "2.review",
+        "2.1",
+        "2.3",
+        "2.review",
+        "2.review"
+      ]
+    },
+    "dense (HyDE) + rerank vs question": {
+      "hit": 1.0,
+      "precision": 0.75,
+      "mrr": 1.0,
+      "sections": [
+        "2.1",
+        "2.1",
+        "1.1",
+        "2.1",
+        "2.1",
+        "2.1",
+        "2.3",
+        "2.review"
+      ]
+    }
+  },
+  {
+    "query_id": "47",
+    "question": "What are applications of psychology in education?",
+    "dense (question)": {
+      "hit": 1.0,
+      "precision": 0.125,
+      "mrr": 0.25,
+      "sections": [
+        "1.1",
+        "1.3",
+        "1.1",
+        "1.4",
+        "1.3",
+        "1.2",
+        "1.review",
+        "1.3"
+      ]
+    },
+    "dense (HyDE)": {
+      "hit": 0.0,
+      "precision": 0.0,
+      "mrr": 0.0,
+      "sections": [
+        "1.3",
+        "7.1",
+        "1.1",
+        "9.1",
+        "7.0",
+        "1.3",
+        "9.1",
+        "1.3"
+      ]
+    },
+    "dense (question) + rerank": {
+      "hit": 1.0,
+      "precision": 0.25,
+      "mrr": 0.25,
+      "sections": [
+        "1.1",
+        "1.1",
+        "1.3",
+        "1.4",
+        "1.4",
+        "1.1",
+        "1.review",
+        "1.3"
+      ]
+    },
+    "dense (HyDE) + rerank vs HyDE passage": {
+      "hit": 0.0,
+      "precision": 0.0,
+      "mrr": 0.0,
+      "sections": [
+        "1.review",
+        "10.0",
+        "1.1",
+        "9.review",
+        "7.review",
+        "1.review",
+        "12.review",
+        "1.1"
+      ]
+    },
+    "dense (HyDE) + rerank vs question": {
+      "hit": 1.0,
+      "precision": 0.125,
+      "mrr": 0.25,
+      "sections": [
+        "1.1",
+        "1.1",
+        "1.3",
+        "1.4",
+        "1.review",
+        "10.1",
+        "1.2",
+        "1.1"
+      ]
+    }
+  },
+  {
+    "query_id": "48",
+    "question": "What is the difference between mood disorders and personality disorders?",
+    "dense (question)": {
+      "hit": 1.0,
+      "precision": 0.625,
+      "mrr": 0.5,
+      "sections": [
+        "15.review",
+        "15.11",
+        "15.review",
+        "15.7",
+        "15.7",
+        "15.review",
+        "15.11",
+        "15.11"
+      ]
+    },
+    "dense (HyDE)": {
+      "hit": 1.0,
+      "precision": 0.5,
+      "mrr": 0.333,
+      "sections": [
+        "15.review",
+        "15.review",
+        "15.11",
+        "15.7",
+        "15.review",
+        "15.7",
+        "15.1",
+        "15.7"
+      ]
+    },
+    "dense (question) + rerank": {
+      "hit": 1.0,
+      "precision": 0.5,
+      "mrr": 0.333,
+      "sections": [
+        "15.review",
+        "15.review",
+        "15.7",
+        "15.11",
+        "15.review",
+        "15.7",
+        "15.review",
+        "15.7"
+      ]
+    },
+    "dense (HyDE) + rerank vs HyDE passage": {
+      "hit": 1.0,
+      "precision": 0.5,
+      "mrr": 0.333,
+      "sections": [
+        "15.review",
+        "15.review",
+        "15.7",
+        "15.2",
+        "15.7",
+        "15.1",
+        "15.11",
+        "15.7"
+      ]
+    },
+    "dense (HyDE) + rerank vs question": {
+      "hit": 1.0,
+      "precision": 0.5,
+      "mrr": 0.333,
+      "sections": [
+        "15.review",
+        "15.review",
+        "15.7",
+        "15.11",
+        "15.review",
+        "15.7",
+        "15.review",
+        "15.7"
+      ]
+    }
+  },
+  {
+    "query_id": "49",
+    "question": "What is the impact of cultural diversity on psychological research?",
+    "dense (question)": {
+      "hit": 1.0,
+      "precision": 0.75,
+      "mrr": 1.0,
+      "sections": [
+        "1.2",
+        "1.2",
+        "1.2",
+        "1.2",
+        "1.2",
+        "14.5",
+        "2.3",
+        "11.8"
+      ]
+    },
+    "dense (HyDE)": {
+      "hit": 1.0,
+      "precision": 0.5,
+      "mrr": 0.333,
+      "sections": [
+        "11.review",
+        "14.5",
+        "1.2",
+        "1.2",
+        "1.2",
+        "2.3",
+        "11.8",
+        "10.4"
+      ]
+    },
+    "dense (question) + rerank": {
+      "hit": 1.0,
+      "precision": 0.625,
+      "mrr": 0.333,
+      "sections": [
+        "1.1",
+        "11.2",
+        "1.2",
+        "1.2",
+        "1.2",
+        "1.2",
+        "16.5",
+        "1.3"
+      ]
+    },
+    "dense (HyDE) + rerank vs HyDE passage": {
+      "hit": 1.0,
+      "precision": 0.375,
+      "mrr": 0.25,
+      "sections": [
+        "2.2",
+        "5.review",
+        "1.1",
+        "11.8",
+        "11.8",
+        "1.2",
+        "12.1",
+        "2.3"
+      ]
+    },
+    "dense (HyDE) + rerank vs question": {
+      "hit": 1.0,
+      "precision": 0.875,
+      "mrr": 0.5,
+      "sections": [
+        "1.1",
+        "1.2",
+        "1.2",
+        "1.2",
+        "1.2",
+        "1.3",
+        "11.8",
+        "11.8"
+      ]
+    }
+  },
+  {
+    "query_id": "50",
+    "question": "What is the role of critical thinking in psychology?",
+    "dense (question)": {
+      "hit": 1.0,
+      "precision": 0.25,
+      "mrr": 1.0,
+      "sections": [
+        "1.1",
+        "1.review",
+        "1.1",
+        "7.0",
+        "7.0",
+        "1.review",
+        "7.1",
+        "15.review"
+      ]
+    },
+    "dense (HyDE)": {
+      "hit": 1.0,
+      "precision": 0.625,
+      "mrr": 1.0,
+      "sections": [
+        "1.1",
+        "1.1",
+        "1.review",
+        "7.1",
+        "1.1",
+        "2.1",
+        "2.1",
+        "16.2"
+      ]
+    },
+    "dense (question) + rerank": {
+      "hit": 1.0,
+      "precision": 0.25,
+      "mrr": 1.0,
+      "sections": [
+        "1.1",
+        "1.review",
+        "1.review",
+        "1.1",
+        "13.review",
+        "1.review",
+        "15.review",
+        "2.review"
+      ]
+    },
+    "dense (HyDE) + rerank vs HyDE passage": {
+      "hit": 1.0,
+      "precision": 0.125,
+      "mrr": 0.5,
+      "sections": [
+        "1.review",
+        "1.1",
+        "1.review",
+        "15.review",
+        "12.review",
+        "13.review",
+        "1.0",
+        "2.review"
+      ]
+    },
+    "dense (HyDE) + rerank vs question": {
+      "hit": 1.0,
+      "precision": 0.25,
+      "mrr": 1.0,
+      "sections": [
+        "1.1",
+        "1.review",
+        "1.review",
+        "1.1",
+        "13.review",
+        "1.review",
+        "15.review",
+        "2.review"
+      ]
+    }
+  }
+]
